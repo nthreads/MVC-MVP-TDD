@@ -1,5 +1,7 @@
 package com.nthreads.mvp
 
-class MainActivity {
+import android.support.v7.app.AppCompatActivity
+
+class MainActivity : AppCompatActivity() {
 
 }
