@@ -1,4 +1,4 @@
-package com.nthreads.mvp
+package com.nthreads.mvp.main
 
 import android.support.v7.app.AppCompatActivity
 

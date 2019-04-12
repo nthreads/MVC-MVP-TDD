@@ -1,4 +1,4 @@
-package com.nthreads.mvp
+package com.nthreads.mvp.login
 
 class LoginService {
     private val EMAIL : String = "nauman@gmail.com"
