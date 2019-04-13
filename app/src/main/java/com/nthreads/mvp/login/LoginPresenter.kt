@@ -6,7 +6,6 @@ import com.nthreads.mvp.R
 
 class LoginPresenter(val loginView: LoginContract.View, val loginService: LoginService) {
 
-
     fun onLoginClick() {
         val email = loginView.getEmail()
 
@@ -15,10 +14,10 @@ class LoginPresenter(val loginView: LoginContract.View, val loginService: LoginS
             return
         }
 
-        if(!email.isValid()) {
+        /*if(!email.isValid()) {
             loginView.showInvalidEmailError(R.string.error_invalid_email)
             return
-        }
+        }*/
 
         val password = loginView.getPassword()
 
@@ -32,7 +31,6 @@ class LoginPresenter(val loginView: LoginContract.View, val loginService: LoginS
         } else {
             loginView.showInvalidLoginError()
         }
-
     }
 
     // Extension function
